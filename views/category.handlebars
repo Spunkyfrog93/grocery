@@ -1,0 +1,18 @@
+<div id = "catlogoutBttn">
+  <button class='btn btn-info'><a href="/logout">Log Out</a></button>
+</div>
+
+<h1> Grocery Categories <h1>
+<h4>Please click on the grocery category you wish to shop from:</h4>  
+<br>    
+      {{#each all}}
+          <div class="mTitle">
+            <a href="/product/{{this.id}}">
+              <button class= "btn btn-light category">{{this.category}}</button>
+            </a>
+          </div>
+      {{/each}}
+
+      
+    
+

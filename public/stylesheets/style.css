@@ -1,0 +1,71 @@
+form.signup,
+form.login {
+  margin-top: 50px;
+  color: black;
+  font-weight: bold;
+}
+
+body {
+  background-image: url('/img/grocerystore.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.mTitle, h1, h4 {
+  text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+a {
+  color: darkslategray;
+  font-weight: strong;
+}
+
+.products {
+  color: darkslategray;  
+  font-weight: strong;
+  background: white;   
+  width: 25%;
+}
+
+.price {
+  text-align: right;
+}
+
+
+h2 {
+  color: goldenrod;
+  font-weight: bolder;
+}
+
+#catlogoutBttn {
+  text-align: right;
+  margin-right: 2.5%;
+  margin-top: 1.5%;
+}
+
+#productDiv {
+  display: block;
+}
+
+#prevBttn {
+  margin-left: 2.5%;
+  margin-top: 1%;
+}
+
+#prodlogoutBttn {
+  float: right;
+  margin-right: 2.5%;
+  margin-top: 1%;
+  clear: both;
+}
+
+button {
+  border-radius: 5px;
+}
